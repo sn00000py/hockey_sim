@@ -13,6 +13,9 @@ class team:
         elif result == 'tie' or result == 'ot_loss':
             self.points += 1
     
-class sim:
-    def __init__(self, teams):
+class init_sim:
+    def __init__(self, teams, schedule):
         self.teams = teams
+        self.schedule = schedule
+
+    
